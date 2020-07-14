@@ -10,5 +10,4 @@ def oxford_comma(array)
    array << "and #{element}"
    array.join(", ")
  end
- array
 end

@@ -1,8 +1,8 @@
 def oxford_comma(array)
- if array.length = 1
+ if array.length == 1
    array.join
  end
- if array.length = 2
+ if array.length == 2
    array.join(" and ")
  end
  if array.length >= 3
@@ -10,5 +10,5 @@ def oxford_comma(array)
    array << "and #{element}"
    array.join(", ")
  end
- array.join
+ array
 end
